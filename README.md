@@ -5,17 +5,17 @@ Every minihash has unique value in HC. Every three characters of the plaintext i
 Resulting hash is then encrypted with a 64 bit key (XOR). 
 The same key is used in order to shuffle minihashes from the original position in hash cube.
 
-### Hash cube
+### Hash cube - HC
 
-Hash cube (HC) is a three dimensional integer array with dimensions 256 x 256 x 256.
+Hash cube is a three dimensional integer array with dimensions 256 x 256 x 256.
 Every element of HC with coordinates (x, y, z) represents the unique 3 byte hash element  { h0, h1, h2 } [1]
 
     miniHash = HC(x, y, z)
     miniHash => { h0, h1, h2 }
 
-### Inverse hash cube:
+### Inverse hash cube - IHC
 
-Inverse hash cube (IHC) is a three dimensional integer array with dimensions 256 x 256 x 256.
+Inverse hash cube is a three dimensional integer array with dimensions 256 x 256 x 256.
 Every HC has one and only one matching IHC.
 Every element of the IHC with coordinates (h0, h1, h2) represents the unique three character string (s0, s1, s2)
 
