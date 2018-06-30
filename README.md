@@ -33,7 +33,7 @@ Key64 is an 64 bit key used for following purposes:
 2. XOR encryption of hash output
 3. XOR decryption of ciphertext
 
-## ENCRYPTION PROCESS
+## ----- ENCRYPTION PROCESS
 
 #### 1. Let the plaintext be: "Hello"
 
@@ -62,7 +62,7 @@ Key64 is an 64 bit key used for following purposes:
     -----------------------
     C = { c0, c1, ..., c8 } (result ciphertext)
 
-### DECRYPTION PROCESS
+## ----- DECRYPTION PROCESS
 
 #### 1. Let the ciphertext be previous C = { c0, c1, ..., c8 }
 
