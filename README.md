@@ -1,4 +1,4 @@
- # SENTA ENCRYPTION ALGORITHM
+ # AAES
 
 Hash-then-encrypt algorithm that use hash cubes (HC) to store and get minihashes. 
 Every minihash has unique value in HC. Every three characters of the plaintext is replaced with a minihash. 
